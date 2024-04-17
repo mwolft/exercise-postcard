@@ -1,0 +1,67 @@
+body {
+	background: black;
+}
+* {
+	min-height: 10px;
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	margin-top: 100px;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding: 25px 10px 0 0;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin: 0px;
+	padding: 25px 0 0 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border-style: none none solid none;
+	border-width: thin;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: 5px;
+	border-style: solid none none solid;
+	border-width: thin;
+	font-family: "Dancing Script", cursive;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+button:hover {
+	background-color: yellow;
+	cursor: pointer;
+	border-style: none solid solid none;
+	border-width: thin;
+}
+button:active {
+	background-color: orange;
+	border-style: solid;
+}
